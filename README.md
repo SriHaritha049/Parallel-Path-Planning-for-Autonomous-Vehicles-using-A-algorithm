@@ -2,7 +2,7 @@
 
 This project implements parallel versions of the A* path planning algorithm (OpenMP, MPI, and CUDA) using real-world road network data from OpenStreetMap.
 
-## 🛠 How to Run
+## How to Run
 
 1. **Extract graph data** from OSM:
    ```bash
@@ -14,11 +14,11 @@ This project implements parallel versions of the A* path planning algorithm (Ope
    python LargePathFinder.py
    ```
 
-## 📂 Files
+## Files
 - `ExtractdataOSM.py`: Extracts nodes and edges from OSM into CSV files.
 - `LargePathFinder.py`: Runs A* algorithm variants using the preprocessed graph.
 
-## 💻 Parallel Implementations
+## Parallel Implementations
 - OpenMP A*
 - MPI A*
 - CUDA A*
